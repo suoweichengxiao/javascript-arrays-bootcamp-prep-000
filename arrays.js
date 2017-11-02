@@ -28,9 +28,9 @@ function removeElementFromBeginningOfArray(array) {var sliceArray = [1, 2, 3];
 return sliceArray.slice(1);
 }
 
-function destructivelyRemoveElementFromEndOfArray(array) {var popArray = [1, 2, 3];
-popArray.pop();
-return popArray;
+function destructivelyRemoveElementFromEndOfArray(array) {
+array.pop();
+return array;
 }
 
 function removeElementFromEndOfArray(array) {var sliceArray2 = [1, 2, 3];
