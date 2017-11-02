@@ -15,7 +15,7 @@ array.push(element);
 return array;
 }
 
-function accessElementInArray(array, index) {var indexArray = [1, 2, 3];
+function accessElementInArray(array, index) {
 return indexArray[index];
 }
 
