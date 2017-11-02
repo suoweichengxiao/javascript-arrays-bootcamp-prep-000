@@ -10,10 +10,9 @@ return array = array.unshift(element);
 function addElementToEndOfArray(array, element) {
 return [...array, element];}
 
-function destructivelyAddElementToEndOfArray(array, element) {var decentArray = [1];
-var element = 'foo';
-decentArray.push(element);
-return decentArray;
+function destructivelyAddElementToEndOfArray(array, element) {
+array.push(element);
+return array;
 }
 
 function accessElementInArray(array, index) {var indexArray = [1, 2, 3];
