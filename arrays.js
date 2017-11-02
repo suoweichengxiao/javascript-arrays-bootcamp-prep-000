@@ -19,9 +19,9 @@ function accessElementInArray(array, index) {
 return array[index];
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array) {var averageArray = [1, 2, 3]
-averageArray.shift();
-return averageArray;
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+array.shift();
+return array;
 }
 
 function removeElementFromBeginningOfArray(array) {var sliceArray = [1, 2, 3];
