@@ -16,7 +16,7 @@ return array;
 }
 
 function accessElementInArray(array, index) {
-return indexArray[index];
+return array[index];
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {var averageArray = [1, 2, 3]
