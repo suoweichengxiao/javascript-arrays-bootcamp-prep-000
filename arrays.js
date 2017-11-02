@@ -33,5 +33,5 @@ array.pop();
 return array;
 }
 
-function removeElementFromEndOfArray(array) {var sliceArray2 = [1, 2, 3];
-return sliceArray2.slice(0, sliceArray2.length, -1);}
+function removeElementFromEndOfArray(array) {
+return array.slice(0, sliceArray2.length, -1);}
